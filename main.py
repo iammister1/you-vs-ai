@@ -2,7 +2,7 @@ import random
 from tkinter import *
 
 #Games
-import rps
+import games.rps as rps
 
 def openRps():
     rps.openGame()
